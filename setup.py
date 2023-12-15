@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=(
-        'django>=4.2', 'django-countries', 'django-model-utils', 'django-money',
+        'django>=4.0.8', 'django-countries', 'django-model-utils', 'django-money',
         'django-localflavor', 'django-internationalflavor'
     ),
     classifiers=[
